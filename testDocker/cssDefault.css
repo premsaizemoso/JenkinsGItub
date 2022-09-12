@@ -1,0 +1,104 @@
+body{ 
+    
+    font-family: sans-serif;
+    color:gray;
+    
+}
+#product-dashboard{
+    margin-top: 40px;
+}
+.parentdiv{
+    height: 100%;
+    display: flex;
+}
+
+.leftdiv{
+    flex-basis: 50%;
+    background-color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.rightdiv{
+    flex-basis: 35%;
+    background-color: #E4E5E9;    
+    height: 50px;
+    width: 50%
+}
+.pdiv{
+    display: flex;
+    height: 30px;
+    width:354px;
+    border: 0.25px solid rgb(173, 172, 172);
+    /* background-color: rgb(248, 236, 236); */
+    
+}
+.leftsidediv{
+    flex-basis: 30% ;
+    padding-top: 5px;
+    margin-left: 10px;
+
+}
+.rightsidediv{
+    flex-basis: 70% ;
+    padding-top: 5px;
+    font-style: normal;
+    color: grey;
+    font-weight: bold;
+}
+
+
+
+#sign-in-text{
+   margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 500px;
+    height:50px;
+    color:black
+}
+
+form{
+    margin-left: 100px;
+    
+}
+
+.text-feild-labels{
+    
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+.input-textfeild{
+    margin-top: 5px;
+    width: 350px;
+    height:25px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+#login-btn{
+    margin-top: 20px;
+    width:360px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(63, 105, 219);
+    color: white;
+    padding-top: 4px;
+    
+}
+
+div .rememberme-checkbox{
+    margin-top: 10px;
+   
+} 
+div #forgotpassword{
+    margin-left: 100px;
+
+}
+div p{
+    margin-top: 50px;
+    height: 100px;
+}​

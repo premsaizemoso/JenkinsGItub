@@ -1,0 +1,18 @@
+{
+    "chromeWebSecurity": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1240,
+    "pageLoadTimeout": 180000,
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporterOpts.json"
+    },
+    "retries": {
+      "openMode": 0,
+      "runMode": 0
+    },
+    "testFiles": [
+      "cypress/integration/2-advanced-examples/homepage.spec.ts"
+      ]
+    }
