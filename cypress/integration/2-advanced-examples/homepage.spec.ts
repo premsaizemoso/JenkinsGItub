@@ -1,6 +1,6 @@
 describe('Verify amazon shopping website home page', () => {
     it('Verify visiting the url', () => {
-        cy.visit('https://www.amazon.in/')
+        cy.visit('https://')
         cy.url().should('include','amazon')
     })
     it('Verify amazon sopping website home page',()=>{
